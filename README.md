@@ -1,21 +1,63 @@
 [![Omar Albosaty — Building scalable systems](assets/portfolio.svg)](https://albosaty.dev/)
 
-I'm **Omar Albosaty**, a software engineer at **Avnology** and a Computer Science student at **Damietta University**. I build backend services and data pipelines, and I work on the frontend when a feature needs both sides.
+I'm **Omar Albosaty**, a software engineer at **Avnology** and a Computer Science student at **Damietta University**. My main languages are **TypeScript and C#**. I build backend services and data pipelines, and I work on the frontend when a feature needs both sides.
 
 [Portfolio](https://albosaty.dev/) · [Résumé](https://albosaty.dev/resume.pdf) · [LinkedIn](https://linkedin.com/in/omar-riyad-7b032137b) · [Email](mailto:omaralbosaty49@gmail.com)
 
 ## Skills
 
-| Area | Tools and practice |
-| --- | --- |
-| Backend | TypeScript, Node.js, NestJS, AdonisJS, C#, ASP.NET Core · REST APIs, authentication, and session management |
-| Data engineering | Python, SQL, Kafka, Airflow, Spark · change data capture and ETL pipelines |
-| Databases | PostgreSQL, Redis, MongoDB · data modeling, caching, and query optimization |
-| Frontend | React, Next.js, Tailwind CSS, Vite · interfaces that connect to backend services |
-| Machine learning | pandas, NumPy, scikit-learn · data preparation, regression, and classification |
-| Systems | Arch Linux, Docker, Azure, Git |
+### The player’s toolkit
 
-[Explore my toolkit on the portfolio →](https://albosaty.dev/about)
+[![My portfolio loadout. Main hand: TypeScript. Off hand: NestJS. Armor: PostgreSQL. Charm: Docker.](assets/player-equipment.svg)](https://albosaty.dev/about#inventory-equipment)
+
+Open a specialty to explore its loadout.
+
+<details open>
+<summary><strong>Backend</strong> · The system builder</summary>
+
+I build APIs and authentication services at Avnology using C# and ASP.NET Core alongside my TypeScript stack.
+
+**Inventory** · C# · ASP.NET Core · TypeScript · Node.js · NestJS · AdonisJS · MikroORM · PostgreSQL
+
+</details>
+
+<details>
+<summary><strong>Data engineering</strong> · The data navigator</summary>
+
+My ETL pipeline captures changes, converts currencies, and keeps an audit trail as transactions move through the system.
+
+**Inventory** · Python · SQL · PostgreSQL · Airflow · Kafka · Azure
+
+</details>
+
+<details>
+<summary><strong>Frontend</strong> · The interface builder</summary>
+
+I use these tools to build the screens and interactions in my portfolio and connect product interfaces to backend services.
+
+**Inventory** · React · Next.js · TypeScript · JavaScript · Tailwind CSS · React Router · HTML · CSS · Vite · npm · Git
+
+</details>
+
+<details>
+<summary><strong>ML &amp; computer vision</strong> · The pattern finder</summary>
+
+My projects range from predicting California housing prices to classifying CIFAR-10 images and detecting fruit with YOLO.
+
+**Inventory** · Python · NumPy · pandas · scikit-learn · TensorFlow · YOLO
+
+</details>
+
+<details>
+<summary><strong>Systems &amp; Linux</strong> · Under the hood</summary>
+
+I use Arch Linux daily and explore memory, networking, and distributed systems through ShardLab.
+
+**Inventory** · C++ · Linux · Docker · Git · SQLite · Zsh
+
+</details>
+
+[Equip items in the interactive portfolio →](https://albosaty.dev/about#inventory-equipment)
 
 ## Selected work
 
@@ -34,7 +76,11 @@ I'm **Omar Albosaty**, a software engineer at **Avnology** and a Computer Scienc
 
 ![Monthly contributions. August was the busiest month with 28 contributions.](assets/monthly-contributions.svg)
 
-![Primary languages of my 25 public, non-fork repositories. Python leads with 9.](assets/repository-languages.svg)
+### Languages in my commits
+
+TypeScript and C# are my two most-used languages by commit count across my personal and Avnology repositories. A commit counts once for each language I added or edited.
+
+![Six most-used languages by authored commits. TypeScript leads with 327, followed by C# with 326.](assets/commit-languages.svg)
 
 <details>
 <summary>Read the chart values</summary>
@@ -54,15 +100,21 @@ I'm **Omar Albosaty**, a software engineer at **Avnology** and a Computer Scienc
 | Oct 2026 | 23 |
 | Nov 2026 | 6 |
 
-| Primary language | Repositories |
+| Language | Authored commits |
 | --- | ---: |
-| Python | 9 |
-| HTML | 4 |
-| TypeScript | 4 |
-| Jupyter Notebook | 3 |
-| QML | 2 |
-| C# | 1 |
+| TypeScript | 327 |
+| C# | 326 |
+| CSS | 87 |
+| Python | 69 |
+| JavaScript | 45 |
+| HTML | 30 |
+| Shell | 20 |
+| C++ | 6 |
+| QML | 4 |
+| Go | 1 |
 | Java | 1 |
-| JavaScript | 1 |
+| PowerShell | 1 |
+| SCSS | 1 |
+| SQL | 1 |
 
 </details>
