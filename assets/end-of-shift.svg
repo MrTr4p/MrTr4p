@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="88" viewBox="0 0 1200 88" role="img" aria-labelledby="title desc">
+  <title id="title">End of transmission</title>
+  <desc id="desc">See you on the next night shift. A green terminal footer with a checkerboard border.</desc>
+  <defs>
+    <pattern id="checker" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#526044"/>
+      <rect x="12" y="12" width="12" height="12" fill="#526044"/>
+    </pattern>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 .5H4" stroke="#000" stroke-opacity=".3"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="88" rx="3" fill="#080e0a"/>
+  <rect x=".5" y=".5" width="1199" height="87" rx="3" fill="none" stroke="#3c5139"/>
+  <rect x="1" y="1" width="1198" height="12" fill="url(#checker)" opacity=".45"/>
+  <g font-family="'Courier New', Courier, monospace">
+    <text x="28" y="48" fill="#b5d58a" font-size="14" letter-spacing="2">&gt;&gt;&gt; END OF TRANSMISSION</text>
+    <text x="1172" y="48" text-anchor="end" fill="#9caf82" font-size="14">see you on the next night shift.</text>
+    <path d="M28 65H1172" stroke="#35462c" stroke-dasharray="3 5"/>
+  </g>
+  <rect width="1200" height="88" fill="url(#scanlines)"/>
+</svg>

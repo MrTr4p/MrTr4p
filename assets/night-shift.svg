@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">MrTr4p — night shift terminal</title>
+  <desc id="desc">Omar Albosaty, software and data engineer. A FNAF 3 inspired green maintenance terminal with a surveillance map and a damaged rabbit animatronic watching from the dark.</desc>
+  <defs>
+    <radialGradient id="screen" cx="35%" cy="42%" r="85%">
+      <stop stop-color="#14251b"/>
+      <stop offset=".6" stop-color="#090f0c"/>
+      <stop offset="1" stop-color="#040706"/>
+    </radialGradient>
+    <radialGradient id="camera" cx="50%" cy="40%" r="65%">
+      <stop stop-color="#233125"/>
+      <stop offset="1" stop-color="#060b08"/>
+    </radialGradient>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 .5H4" stroke="#000" stroke-opacity=".38"/>
+      <path d="M0 2.5H4" stroke="#c4ffb0" stroke-opacity=".025"/>
+    </pattern>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#a5db7b" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="glow" x="-25%" y="-40%" width="150%" height="180%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".82"/>
+    </linearGradient>
+    <clipPath id="feed-clip"><rect x="798" y="111" width="346" height="238"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="500" rx="6" fill="#040706"/>
+  <rect x="8" y="8" width="1184" height="484" rx="3" fill="url(#screen)" stroke="#3c5139"/>
+  <rect x="8" y="8" width="1184" height="484" fill="url(#grid)"/>
+  <g fill="none" stroke="#87a76a" stroke-width="2">
+    <path d="M27 64V28H64M1136 28H1173V64M27 436V473H64M1136 473H1173V436"/>
+  </g>
+
+  <g font-family="'Courier New', Courier, monospace">
+    <circle cx="53" cy="54" r="5" fill="#be654c"/>
+    <text x="69" y="60" fill="#cbd2bb" font-size="16" letter-spacing="2">REC</text>
+    <text x="133" y="60" fill="#60715a" font-size="15">/</text>
+    <text x="159" y="60" fill="#8d9e7c" font-size="15" letter-spacing="2">FAZBEAR'S FRIGHT</text>
+    <text x="1145" y="60" text-anchor="end" fill="#ccd4bb" font-size="18" letter-spacing="2">12:00 AM <tspan fill="#6d805d">/ NIGHT 03</tspan></text>
+    <path d="M52 80H1146" stroke="#3c5033"/>
+
+    <text x="53" y="120" fill="#889c6f" font-size="13" letter-spacing="3">PERSONNEL DATABASE / AUTHORIZED ACCESS</text>
+    <g fill="#c0f18a" filter="url(#glow)">
+      <text x="48" y="214" font-size="91" font-weight="bold" letter-spacing="-5">MrTr4p<tspan font-size="62" fill="#8faf65">_</tspan></text>
+    </g>
+    <text x="54" y="250" fill="#d2d9bd" font-size="21" letter-spacing="5">OMAR ALBOSATY</text>
+    <text x="54" y="283" fill="#8da17c" font-size="17">software &amp; data engineer</text>
+
+    <rect x="54" y="315" width="630" height="99" fill="#050a06" fill-opacity=".7" stroke="#3f5431"/>
+    <text x="74" y="343" fill="#7d9267" font-size="13" letter-spacing="2">system restart</text>
+    <text x="74" y="373" fill="#c0f18a" font-size="19" filter="url(#glow)">&gt;&gt;&gt; build something that stays alive.</text>
+    <text x="74" y="397" fill="#72855e" font-size="12" letter-spacing="1">APIs / DISTRIBUTED SYSTEMS / DATA PIPELINES</text>
+
+    <g clip-path="url(#feed-clip)">
+      <rect x="798" y="111" width="346" height="238" fill="url(#camera)"/>
+      <g fill="none" stroke="#4d5c42" stroke-width="1" opacity=".3">
+        <path d="M798 132L938 183H1024L1144 131M798 329L938 274H1024L1144 329M938 183V274M1024 183V274"/>
+        <path d="M802 182L936 214M1044 216L1143 182M798 257L937 242M1035 241L1144 259"/>
+        <path d="M850 150V307M1100 151V308"/>
+      </g>
+      <!-- Original vector silhouette: a damaged rabbit suit in the camera feed. -->
+      <path d="M881 357L889 316L908 287L928 278L929 258L916 241L909 209L916 185L931 171L925 140L921 118L927 111L943 114L951 141L954 165L972 162L976 145L971 139L982 130L978 120L989 112L1004 119L1001 133L1008 141L994 173L1011 185L1018 214L1010 242L996 260L995 279L1018 288L1037 317L1045 357Z" fill="#151e13" stroke="#526043" stroke-width="2"/>
+      <path d="M930 122L938 154L938 169M992 126L986 148L983 164" stroke="#6a7150" stroke-width="5" opacity=".7"/>
+      <path d="M925 195L941 190L950 198L944 211L929 212ZM975 197L987 188L1003 196L1003 209L986 212Z" fill="#020503"/>
+      <g fill="#d5e4ac" filter="url(#glow)">
+        <ellipse cx="939" cy="202" rx="3.2" ry="3.8"/>
+        <ellipse cx="990" cy="201" rx="3.2" ry="3.8"/>
+      </g>
+      <path d="M951 217L961 213L970 218L963 225Z" fill="#030603"/>
+      <path d="M932 235L949 230L965 233L983 229L995 237L987 253L945 254Z" fill="#040704" stroke="#485239"/>
+      <path d="M943 235L946 243L951 236L956 244L961 237L966 244L971 236L977 242L981 235" fill="none" stroke="#9b9e71" stroke-width="2"/>
+      <path d="M917 215L925 220L919 229M1008 218L1000 223L1006 235M934 264L944 269L940 277M977 267L985 263M925 299L936 308L928 319L937 332M1008 299L997 310L1006 326" fill="none" stroke="#6b7150" stroke-width="2" opacity=".7"/>
+      <path d="M955 278L966 289L979 279M947 300L958 308L952 323L964 331L980 316L975 302" fill="none" stroke="#68714b" stroke-width="3"/>
+      <rect x="798" y="246" width="346" height="103" fill="url(#shade)"/>
+      <path d="M798 155H1144M798 157H1144M798 281H1144" stroke="#a4b886" stroke-opacity=".07"/>
+      <rect x="798" y="111" width="346" height="238" fill="url(#scanlines)"/>
+    </g>
+    <rect x="797.5" y="110.5" width="347" height="239" fill="none" stroke="#5e7250"/>
+    <text x="812" y="136" fill="#bdcc9f" font-size="12" letter-spacing="1">CAM 03 / SERVICE CORRIDOR</text>
+    <text x="1132" y="333" text-anchor="end" fill="#a4b286" font-size="11" letter-spacing="2">MOTION DETECTED</text>
+
+    <!-- Camera selector echoes the in-game security map. -->
+    <g fill="none" stroke="#566444" stroke-width="1.5">
+      <path d="M848 375V393H897M927 375V393M1005 375V393H1054M1083 375V393"/>
+    </g>
+    <g font-size="12" text-anchor="middle" letter-spacing="1">
+      <rect x="812" y="366" width="72" height="30" fill="#10190d" stroke="#4f603f"/>
+      <text x="848" y="385" fill="#8c9b74">CAM 01</text>
+      <rect x="891" y="366" width="72" height="30" fill="#10190d" stroke="#4f603f"/>
+      <text x="927" y="385" fill="#8c9b74">CAM 02</text>
+      <rect x="970" y="366" width="72" height="30" fill="#b9d270" stroke="#d5ee93"/>
+      <text x="1006" y="385" fill="#14200b" font-weight="bold">CAM 03</text>
+      <rect x="1049" y="366" width="81" height="30" fill="#10190d" stroke="#4f603f"/>
+      <text x="1089" y="385" fill="#8c9b74">CAM 04</text>
+    </g>
+
+    <path d="M53 438H1146" stroke="#3c5033"/>
+    <text x="54" y="464" fill="#96aa76" font-size="12" letter-spacing="1">NIGHT SHIFT / DEVELOPER ON DUTY</text>
+    <text x="1144" y="464" text-anchor="end" fill="#75865e" font-size="12" letter-spacing="1">some bugs only come out after midnight.</text>
+  </g>
+  <rect x="8" y="8" width="1184" height="484" rx="3" fill="url(#scanlines)" pointer-events="none"/>
+</svg>
