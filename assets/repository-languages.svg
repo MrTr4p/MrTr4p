@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 335" font-family="DejaVu Sans,sans-serif"><title>Primary languages</title><desc>25 public, non-fork repositories  /  November 23, 2026</desc><rect width="720" height="335" rx="16" fill="#211832"/>
+<text x="24" y="38" fill="#fff1d6" font-size="23" font-weight="bold" text-anchor="start">Primary languages</text>
+<text x="24" y="65" fill="#d6cfe2" font-size="15" font-weight="normal" text-anchor="start">25 public, non-fork repositories  /  November 23, 2026</text>
+<text x="24" y="102" fill="#fff1d6" font-size="17" font-weight="normal" text-anchor="start">Python</text>
+<rect x="195" y="88" width="453" height="16" rx="4" fill="#a9a7ff"/>
+<text x="661" y="102" fill="#f6c65b" font-size="17" font-weight="bold" text-anchor="start">9</text>
+<text x="24" y="133" fill="#fff1d6" font-size="17" font-weight="normal" text-anchor="start">HTML</text>
+<rect x="195" y="119" width="201" height="16" rx="4" fill="#a9a7ff"/>
+<text x="409" y="133" fill="#f6c65b" font-size="17" font-weight="bold" text-anchor="start">4</text>
+<text x="24" y="164" fill="#fff1d6" font-size="17" font-weight="normal" text-anchor="start">TypeScript</text>
+<rect x="195" y="150" width="201" height="16" rx="4" fill="#a9a7ff"/>
+<text x="409" y="164" fill="#f6c65b" font-size="17" font-weight="bold" text-anchor="start">4</text>
+<text x="24" y="195" fill="#fff1d6" font-size="17" font-weight="normal" text-anchor="start">Jupyter Notebook</text>
+<rect x="195" y="181" width="151" height="16" rx="4" fill="#a9a7ff"/>
+<text x="359" y="195" fill="#f6c65b" font-size="17" font-weight="bold" text-anchor="start">3</text>
+<text x="24" y="226" fill="#fff1d6" font-size="17" font-weight="normal" text-anchor="start">QML</text>
+<rect x="195" y="212" width="101" height="16" rx="4" fill="#a9a7ff"/>
+<text x="309" y="226" fill="#f6c65b" font-size="17" font-weight="bold" text-anchor="start">2</text>
+<text x="24" y="257" fill="#fff1d6" font-size="17" font-weight="normal" text-anchor="start">C#</text>
+<rect x="195" y="243" width="50" height="16" rx="4" fill="#a9a7ff"/>
+<text x="258" y="257" fill="#f6c65b" font-size="17" font-weight="bold" text-anchor="start">1</text>
+<text x="24" y="288" fill="#fff1d6" font-size="17" font-weight="normal" text-anchor="start">Java</text>
+<rect x="195" y="274" width="50" height="16" rx="4" fill="#a9a7ff"/>
+<text x="258" y="288" fill="#f6c65b" font-size="17" font-weight="bold" text-anchor="start">1</text>
+<text x="24" y="319" fill="#fff1d6" font-size="17" font-weight="normal" text-anchor="start">JavaScript</text>
+<rect x="195" y="305" width="50" height="16" rx="4" fill="#a9a7ff"/>
+<text x="258" y="319" fill="#f6c65b" font-size="17" font-weight="bold" text-anchor="start">1</text>
+</svg>
