@@ -1,24 +1,29 @@
-# Character artwork
+# Night-shift profile
 
-This is an unofficial, personal Five Nights at Freddy's fan profile. FNAF and its characters belong to Scott Cawthon and their respective rights holders. The layout and interface artwork were made for this profile; the character renders and game animation were sourced from the pages below.
+The profile uses original, self-contained SVG artwork: a CCTV floor plan, moving camera selection, system checks, project diagrams, and animated contribution charts. It contains no raster character images, external fonts, JavaScript, or remote image-generation services.
 
-| Character / asset | Source page | Download |
-| --- | --- | --- |
-| Springtrap, full body | [PNG All](https://www.pngall.com/springtrap-png/download/137212/) | [PNG](https://www.pngall.com/wp-content/uploads/15/Springtrap-PNG-HD-Image.png) |
-| Springtrap portrait / avatar | [PNG All, Springtrap gallery](https://www.pngall.com/springtrap-png/) | [PNG](https://www.pngall.com/wp-content/uploads/15/Springtrap-PNG-Picture.png) |
-| Freddy Fazbear | [PNGAAA](https://www.pngaaa.com/detail/2757370) | [PNG](https://image.pngaaa.com/370/2757370.png) |
-| Bonnie | [PNGAAA](https://www.pngaaa.com/detail/4718562) | [PNG](https://image.pngaaa.com/562/4718562.png) |
-| Chica | [PNGAAA](https://www.pngaaa.com/detail/2266902) | [PNG](https://image.pngaaa.com/902/2266902.png) |
-| Foxy | [PNGAAA](https://www.pngaaa.com/detail/664372) | [PNG](https://image.pngaaa.com/372/664372.png) |
-| Original animatronic group | [PNGkey](https://www.pngkey.com/maxpic/u2q8o0o0w7u2i1w7/) | [PNG](https://www.pngkey.com/png/full/158-1584105_clip-art-transparent-fnaf-transparent-1character-five-nights.png) |
-| Springtrap camera animation | [GIPHY](https://giphy.com/gifs/NYCjBIBGtyeFq) | [GIF](https://media.giphy.com/media/NYCjBIBGtyeFq/giphy.gif) |
+The visual direction takes its cues from FNAF security and maintenance interfaces. The reference profile was [darkyeg](https://github.com/darkyeg), whose current README uses animated SVG cards and responsive dark/light variants. Its artwork and personal content were not copied.
 
-The downloaded character images are compressed as WebP for delivery and embedded in SVG layouts. No character was redrawn or generated. The original square Springtrap portrait is retained as `assets/avatar-springtrap.png`. The GIF is unchanged. Source mirrors do not establish the original artist or an official-render designation; those designations are not asserted here.
+## Interactions
 
-# Maintaining the profile
+- Navigation links jump to camera feeds, maintenance, the security log, and contact links.
+- Project cards open their corresponding repositories.
+- Native README disclosures open the personnel file, additional feeds, maintenance systems, and exact activity values. They work with mouse, touch, and keyboard.
+- The camera map, route indicators, system bars, and chart entrances use SVG CSS animations. Reduced motion disables the animations and shows the first camera.
+- The footer returns to the top of the page.
 
-`python3 tools/build_profile.py` rebuilds the SVG layouts from the local assets and saved GitHub snapshot. `python3 tools/build_profile.py --refresh` refreshes the contribution snapshot through the local `gh` CLI first and checks that the authenticated account is `MrTr4p`. It does not publish or push any changes.
+The decorative camera animation cycles automatically. It does not imply a visitor-operated camera game. README images cannot execute application JavaScript or receive click events on their internal graphics.
 
-Desktop and mobile artwork are selected with `<picture>` elements. All section images include descriptive alternative text, with a native text version available in the README disclosure. The animated camera is inside a separate disclosure.
+## Data
 
-`profile-settings.json` contains the matching public bio, website, status text, and avatar path. It contains no credentials. GitHub account settings and avatar uploads are separate from the profile README.
+The activity snapshot uses the same **public** contribution calendar available at [MrTr4p's public calendar](https://github.com/users/MrTr4p/contributions). Repository metadata comes from the public repositories queried through the locally authenticated GitHub CLI. The saved snapshot includes its period and public visibility. Private contribution data is not included.
+
+The contribution total, active days, and longest streak use the displayed calendar period; they are not lifetime totals. Each monthly bucket includes only dates within that period. Exact values are available in the README's activity disclosure.
+
+## Build
+
+Run `python3 tools/build_profile.py` to rebuild the graphics and README from `assets/profile-data.json`.
+
+Run `python3 tools/build_profile.py --refresh` to update public data first. Refresh verifies that the local `gh` account is `MrTr4p`. The script does not commit, push, or change account settings.
+
+There are desktop/mobile and dark/light variants for every panel. All fonts are rendered as SVG text; all diagrams and charts are vectors. Alternative text identifies each linked panel and its function.
