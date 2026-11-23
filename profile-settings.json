@@ -1,7 +1,9 @@
 {
   "account": "MrTr4p",
-  "bio": "Software & data engineer. APIs, pipelines & Linux after midnight. Night shift at Freddy's. >>> I always come back.",
+  "bio": "Software engineer at Avnology. I build backend services, APIs, and data pipelines. Computer Science student at Damietta University.",
   "blog": "https://albosaty.dev",
-  "status": "Surviving the night shift",
-  "status_emoji": ":flashlight:"
+  "company": "Avnology",
+  "location": "Damietta, Egypt",
+  "status": "Available for work",
+  "status_emoji": ":technologist:"
 }
